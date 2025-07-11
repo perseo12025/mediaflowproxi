@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/perseo12025/mediaflowproxi.git .
+RUN git clone https://github.com/perseo12025/mediaflowproxi.
 
 # Copy the local config.json file to the container
 
